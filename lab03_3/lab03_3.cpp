@@ -21,7 +21,7 @@ int main()
 	else if ((x > -8) && (x <= -R))
 		y = (R * R + R * x) / (8 - R);
 	else if ((x > -R) && (x <= R))
-		y = -sqrt(R * R - pow((x - R), 2));
+		y = -sqrt(R * R - x * x);
 	else if ((x > R) && (x <= 5))
 		y = (2 * x - 2 * R) / (5 - R);
 	else y = 3;
